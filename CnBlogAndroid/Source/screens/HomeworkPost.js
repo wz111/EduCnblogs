@@ -114,7 +114,8 @@ export default class App extends Component {
 	                    borderWidth: 1
 	                }}
 	                underlineColorAndroid="transparent"//设置下划线背景色透明 达到去掉下划线的效果 	                
-	                //onChangeText= 关联函数        		
+	                //onChangeText= 关联函数   
+					accessibilityLabel = 'HomeworkPost_homeworkTitle'
 	            />      	
             </View>
             <View style= {{        
